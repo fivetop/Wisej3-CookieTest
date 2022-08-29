@@ -45,6 +45,7 @@
   <ItemGroup>
     <Content Include="Default.html" />
     <Content Include="Default.json" />
+    <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -81,8 +82,8 @@
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
-    <Reference Include="Wisej.Framework">
-      <HintPath>C:\Program Files\IceTeaGroup\Wisej 2\bin\Wisej.Framework.dll</HintPath>
+    <Reference Include="Wisej.Framework, Version=3.0.0.0, Culture=neutral, PublicKeyToken=17bef35e11b84171, processorArchitecture=MSIL">
+      <HintPath>..\packages\Wisej-3.3.0.10\lib\net48\Wisej.Framework.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
